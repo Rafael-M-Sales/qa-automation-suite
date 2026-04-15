@@ -21,6 +21,6 @@ O projeto adota o padrão **Maven Multi-Module** visando escalabilidade:
 
 ## ▶️ Como executar
 1. Abra o projeto na sua IDE.
-2. Certifique-se de baixar dependências com `mvn clean install -DskipTests`.
-3. Rode `mvn test` para executar tudo (ou rode os profiles específicos dos pom.xml dentro das pastas target).
-4. Rode `mvn allure:serve` para visualizar o Dashboard interativo dos relatórios.
+2. Baixe e instale as dependências executando o comando `mvn clean install -DskipTests`.
+3. Execute todos os testes com o comando `mvn test` (ou execute a partir de cada módulo individual).
+4. Utilize o comando `mvn allure:serve` para gerar e interagir com o Dashboard de relatórios.
