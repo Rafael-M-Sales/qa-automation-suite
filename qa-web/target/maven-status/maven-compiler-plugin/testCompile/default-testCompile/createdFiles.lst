@@ -1,0 +1,3 @@
+com\carrefour\automation\web\hooks\WebHooks.class
+com\carrefour\automation\web\steps\LoginWebSteps.class
+com\carrefour\automation\web\runner\RunWebTest.class
